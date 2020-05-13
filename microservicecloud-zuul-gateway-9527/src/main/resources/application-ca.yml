@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: miroservicecloud dev
+
+---
+spring:
+  profiles: test
+  application:
+    name:
+    miroservicecloud test
+# save as utf-8
+
